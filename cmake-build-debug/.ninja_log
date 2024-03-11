@@ -1,0 +1,17 @@
+# ninja log v5
+12	970	7308321119766727	CMakeFiles/OOP_lab3.dir/Goods.cpp.obj	ef7442b81d0a38b
+3	447	7317783208034185	CMakeFiles/OOP_lab3.dir/main.cpp.obj	2aed6daa2fe65033
+6	588	7317781036531577	CMakeFiles/OOP_lab3.dir/Client.cpp.obj	7c6377b5487ba035
+3	428	7317779952488619	CMakeFiles/OOP_lab3.dir/Order.cpp.obj	eb5393af17beb603
+17	873	7317778449321208	CMakeFiles/OOP_lab3.dir/Furniture.cpp.obj	41ac021225daea98
+447	534	7317783208879040	OOP_lab3.exe	d22c6f8c074a5e14
+3	597	7309029592363551	CMakeFiles/OOP_lab3.dir/Operator.cpp.obj	d6dfd9225e7a562c
+1	94	7317792748733193	build.ninja	1b1bc0e4c35242ee
+20	864	7317778449222333	CMakeFiles/OOP_lab3.dir/Table.cpp.obj	5de1db326742d5c6
+13	863	7317778449211784	CMakeFiles/OOP_lab3.dir/People.cpp.obj	f3fd7efb540acf55
+10	510	7317812380405273	CMakeFiles/OOP_lab3.dir/Basket.cpp.obj	d0389d8ed29eb37d
+7	532	7317812380636550	CMakeFiles/OOP_lab3.dir/main.cpp.obj	2aed6daa2fe65033
+3	555	7317812380862241	CMakeFiles/OOP_lab3.dir/Order.cpp.obj	eb5393af17beb603
+555	667	7317812381952835	OOP_lab3.exe	2f5887428ddf6372
+3	434	7317813867344414	CMakeFiles/OOP_lab3.dir/Order.cpp.obj	eb5393af17beb603
+435	527	7317813868240740	OOP_lab3.exe	2f5887428ddf6372
