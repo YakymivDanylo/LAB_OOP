@@ -13,11 +13,14 @@ People::People(const People &other)
 
 }
 
+People::People(People &&other)  noexcept : name{std::move(other.name)}, age{other.age} {
+    other.name = "noname ";
+    other.age = 0;
+}
+
   ostream &operator<<(ostream &os,const People &obj){
     os<<"Name: "<<obj.name<<"Age: "<<obj.age;
     return os;
 }
 
-People::People(People &&other)  noexcept : name{std::move(other.name)}, age{other.age} {
 
-}

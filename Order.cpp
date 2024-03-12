@@ -43,7 +43,7 @@ Order Order::operator=(const Order &rhs) {
     }
 }
 ostream &operator<<(ostream &os, const Order &obj){
-    os<<" Address of delivery: "<<obj.addressDelivery<<" Price of goods: "<<obj.priceGoods<<" Currency: "<<obj.currency<<"Price of delivery: "<<obj.priceDeliver<<"Currency of delivery"<<obj.currency_del<<"Basket:"<<obj.basket1;
+    os<<" Address of delivery: "<<obj.addressDelivery<<"; Price of goods: "<<obj.priceGoods<<"; Currency: "<<obj.currency<<"; Price of delivery: "<<obj.priceDeliver<<"; Currency of delivery: "<<obj.currency_del<<"; Basket: "<<obj.basket1;
     return os;
 }
 

@@ -14,9 +14,11 @@ private:
 public:
     Client();
     Client(string name,int age,string livingAddress, string dateOfBirth) ;
+    friend ostream &operator <<(ostream &os,const Client &obj);
     Client(const Client &other);
     Client(Client &&other);
     ~Client(){};
+
 
 };
 #endif
