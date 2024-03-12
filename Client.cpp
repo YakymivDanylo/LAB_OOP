@@ -10,6 +10,15 @@ Client::Client()
     Client::Client(const Client &other)
     :People(other),livingAddress(other.livingAddress),dateOfBirth(other.dateOfBirth){}
 
+Client::Client( Client &&other)
+        :People(other),livingAddress(other.livingAddress),dateOfBirth(other.dateOfBirth)
+        {
+    other.name = " ";
+    other.age = 0;
+    other.livingAddress = "";
+    other.dateOfBirth = " ";
+        }
+
 
 
 

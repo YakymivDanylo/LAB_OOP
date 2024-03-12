@@ -17,3 +17,7 @@ People::People(const People &other)
     os<<"Name: "<<obj.name<<"Age: "<<obj.age;
     return os;
 }
+
+People::People(People &&other)  noexcept : name{std::move(other.name)}, age{other.age} {
+
+}

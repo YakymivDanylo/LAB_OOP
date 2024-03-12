@@ -3,7 +3,7 @@
 #include "iostream"
 using namespace std;
 class People {
-private:
+protected:
     string name;
     int age;
 
@@ -15,6 +15,7 @@ public:
     friend ostream &operator <<(ostream &os,const People &obj);
 
     People(const People &other);
+    People(People &&other) noexcept;
 
     ~People(){};
 
